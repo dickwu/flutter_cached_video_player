@@ -27,8 +27,9 @@ project.getTasks().withType(JavaCompile){
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.lazyarts.cached_video_player'
     compileSdkVersion 29
-
+    
     defaultConfig {
         minSdkVersion 16
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
