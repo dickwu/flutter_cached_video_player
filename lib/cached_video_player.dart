@@ -347,6 +347,10 @@ class CachedVideoPlayerController
           break;
         case VideoEventType.unknown:
           break;
+        case VideoEventType.isPlayingStateUpdate:
+          // This event is only used to update the value of isPlaying.
+          value = value.copyWith(isPlaying: event.isPlaying);
+          break;
       }
     }
 
