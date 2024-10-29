@@ -1,6 +1,6 @@
 name: cached_video_player
 description: A new flutter plugin that is virtually a clone of official video_player plugin except that it supports caching( Android and iOS)
-version: 2.0.6
+version: 2.0.7
 homepage: https://github.com/vikram25897/flutter_cached_video_player
 
 flutter:
@@ -32,9 +32,8 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
-  lints: ^5.0.0
-  flutter_lints: ^5.0.0
-  # pedantic: ^1.11.1
+  lints: ^1.0.1
+  pedantic: ^1.11.1
   pigeon: ^22.6.0
 
 environment:
